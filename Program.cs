@@ -19,7 +19,7 @@ if(args.Length == 1 && args[0].All(Char.IsLetter)){
 
     string? inputText = Console.ReadLine();
 
-    if(inputText is not null){
+    if(inputText is not null && inputText.Length > 0){
 
         for(int i = 0,keyIndex = 0,n = inputText.Length;i < n;i++){
 
@@ -50,11 +50,15 @@ if(args.Length == 1 && args[0].All(Char.IsLetter)){
             }
         }
     }
+    else{
     Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine("\nВы не ввели текст для шифрования!\n");
     Console.ForegroundColor = ConsoleColor.White;
 
+    return 1;
+    }
     return 0;
+
 }
 }while(args.Length == 1 && args[0].All(Char.IsLetter));
 
