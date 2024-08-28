@@ -12,7 +12,7 @@ The Vigenère cipher is a polyalphabetic encryption method that uses a keyword t
 >> - L + Y (shift by 24) → J
 >> - L + K (shift by 10) → V
 >> - O + E (shift 4) → S
->>Encrypted message: RIJVS
+>> Encrypted message: RIJVS
 >
 
 ## Installation
