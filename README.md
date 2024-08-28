@@ -46,4 +46,5 @@ To launch the application, execute:
 dotnet run apple
 ```
 The dotnet run command must be followed by a command line argument.\
-This is your cipher key. In the example above, the key is **“apple”**
+This is your cipher key. In the example above, the key is **“apple”**\
+If it's right. The program will ask you to enter the text you want to encrypt.
